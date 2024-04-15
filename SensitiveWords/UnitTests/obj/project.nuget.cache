@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cy3ALeDHMxodzGOOaALNJWQqS3f3skVunI2VaGai49szY/tjqEIaDzhQru0qeGi2zMHOUf5yR8Po2ufk/drCbg==",
+  "dgSpecHash": "MnfovljEb276zSeIE7h03cAVDZBRn8wTVo9ikx8F10B16j2rJv9F55cjOp7eiGxDDKVsJeDv23dwlcaCugRlxg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

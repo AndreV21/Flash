@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UnitTests
-build_property.ProjectDir = D:\Projects\Flash\SensitiveWords\UnitTests\
+build_property.ProjectDir = C:\Users\andri\OneDrive\Documents\GitHub\Flash\SensitiveWords\UnitTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zn909dTldxzFnpRQWDH3xbHP1uRf03wmh5ZOc9GarnIzu64e2M3EcfACidSYVdz2ahSltGH5WJUKP/zwetNZHA==",
+  "dgSpecHash": "+AyoB3ee7tcjWKLpf9qeBi6IYPx9hdb6MOmMYB8xHAFxY/sNNsHPwONxYKyTT/ny6/D/QcSEOZMoG7m3k9KtSQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj",
+  "projectFilePath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

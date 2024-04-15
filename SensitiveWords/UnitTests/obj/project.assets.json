@@ -4794,11 +4794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4820,8 +4820,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj": {
-              "projectPath": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj"
+            "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj": {
+              "projectPath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\SensitiveWords.csproj"
             }
           }
         }
