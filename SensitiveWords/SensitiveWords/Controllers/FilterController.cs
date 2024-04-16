@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using SensitiveWords.Interface;
 using SensitiveWords.Services;
 
@@ -10,11 +11,13 @@ namespace SensitiveWords.Controllers
     {
         private readonly ISensitiveWordsFilterService _sensitiveWordsFilterService;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<FilterController> _logger;
 
-        public FilterController(ISensitiveWordsFilterService sensitiveWordsFilterService, IConfiguration configuration)
+        public FilterController(ISensitiveWordsFilterService sensitiveWordsFilterService, IConfiguration configuration, ILogger<FilterController> logger)
         {
             _sensitiveWordsFilterService = sensitiveWordsFilterService;
             _configuration = configuration;
+            _logger = logger;
         }
 
         [HttpPost("message")]
@@ -28,12 +31,14 @@ namespace SensitiveWords.Controllers
                 // Check if the password is provided in the headers
                 if (!Request.Headers.TryGetValue("Password", out var actualPassword))
                 {
+                    _logger.LogError("Password not provided in the headers.");
                     return Unauthorized("Password not provided in the headers.");
                 }
 
                 // Compare the provided password with the expected password
                 if (actualPassword != expectedPassword)
                 {
+                    _logger.LogError("Invalid password.");
                     return Unauthorized("Invalid password.");
                 }
 
@@ -42,6 +47,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError("Exception:" + ex.Message);
                 return BadRequest(ex.Message);
             }
  

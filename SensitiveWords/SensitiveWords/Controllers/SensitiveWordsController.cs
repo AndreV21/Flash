@@ -10,10 +10,12 @@ namespace SensitiveWords.Controllers
     public class SensitivewordsController : ControllerBase
     {
         private readonly ISensitiveWordsService _sensitiveWordsService;
+        private readonly ILogger<SensitivewordsController> _logger;
 
-        public SensitivewordsController(ISensitiveWordsService sensitiveWordsService)
+        public SensitivewordsController(ISensitiveWordsService sensitiveWordsService, ILogger<SensitivewordsController> logger)
         {
             _sensitiveWordsService = sensitiveWordsService;
+            _logger = logger;   
         }
 
         [HttpGet("GetSensitiveWords")]
@@ -26,6 +28,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError("Error Occured while retrieving words: " + ex.Message);
                 return BadRequest("Error Occured while retrieving words: " + ex.Message);
             }
 
@@ -38,6 +41,7 @@ namespace SensitiveWords.Controllers
             {
                 if (sensitiveWords == null || sensitiveWords.Count == 0)
                 {
+                    _logger.LogError("No sensitive words provided.");
                     return BadRequest("No sensitive words provided.");
                 }
                 _sensitiveWordsService.AddSensitiveWord(sensitiveWords);
@@ -45,7 +49,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
-
+                _logger.LogError("Error Occured while adding word: " + ex.Message);
                 return BadRequest("Error Occured while adding word: " + ex.Message);
             }
 
@@ -58,6 +62,7 @@ namespace SensitiveWords.Controllers
             {
                 if (sensitiveWords == null || sensitiveWords.Count == 0)
                 {
+                    _logger.LogError("No sensitive words provided.");
                     return BadRequest("No sensitive words provided.");
                 }
                 _sensitiveWordsService.AddSensitiveWordFromStringList(sensitiveWords);
@@ -65,7 +70,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
-
+                _logger.LogError("Error Occured while adding words from string list: " + ex.Message);
                 return BadRequest("Error Occured while adding words from string list: " + ex.Message);
             }
 
@@ -81,6 +86,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError("Error Occured while updating word: " + ex.Message);
                 return BadRequest("Error Occured while updating word: " + ex.Message);
             }
 
@@ -96,6 +102,7 @@ namespace SensitiveWords.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError("Error Occured while deleting word: " + ex.Message);
                 return BadRequest("Error Occured while deleting word: " + ex.Message);
             }
 

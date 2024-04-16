@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "a1962728-2a95-4240-a002-78506f597409",
+		"name": "Flash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5521287"
+	},
+	"item": [
+		{
+			"name": "Add Sensitive Word From String List",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n\t\"ACTION\"\r\n\t,\"ADD\"\r\n\t,\"ALL\"\r\n\t,\"ALLOCATE\"\r\n\t,\"ALTER\"\r\n\t,\"ANY\"\r\n\t,\"APPLICATION\"\r\n\t,\"ARE\"\r\n\t,\"AREA\"\r\n\t,\"ASC\"\r\n\t,\"ASSERTION\"\r\n\t,\"ATOMIC\"\r\n\t,\"AUTHORIZATION\"\r\n\t,\"AVG\"\r\n\t,\"BEGIN\"\r\n\t,\"BY\"\r\n\t,\"CALL\"\r\n\t,\"CASCADE\"\r\n\t,\"CASCADED\"\r\n\t,\"CATALOG\"\r\n\t,\"CHECK\"\r\n\t,\"CLOSE\"\r\n\t,\"COLUMN\"\r\n\t,\"COMMIT\"\r\n\t,\"COMPRESS\"\r\n\t,\"CONNECT\"\r\n\t,\"CONNECTION\"\r\n\t,\"CONSTRAINT\"\r\n\t,\"CONSTRAINTS\"\r\n\t,\"CONTINUE\"\r\n\t,\"CONVERT\"\r\n\t,\"CORRESPONDING\"\r\n\t,\"CREATE\"\r\n\t,\"CROSS\"\r\n\t,\"CURRENT\"\r\n\t,\"CURRENT_PATH\"\r\n\t,\"CURRENT_SCHEMA\"\r\n\t,\"CURRENT_SCHEMAID\"\r\n\t,\"CURRENT_USER\"\r\n\t,\"CURRENT_USERID\"\r\n\t,\"CURSOR\"\r\n\t,\"DATA\"\r\n\t,\"DEALLOCATE\"\r\n\t,\"DECLARE\"\r\n\t,\"DEFAULT\"\r\n\t,\"DEFERRABLE\"\r\n\t,\"DEFERRED\"\r\n\t,\"DELETE\"\r\n\t,\"DESC\"\r\n\t,\"DESCRIBE\"\r\n\t,\"DESCRIPTOR\"\r\n\t,\"DETERMINISTIC\"\r\n\t,\"DIAGNOSTICS\"\r\n\t,\"DIRECTORY\"\r\n\t,\"DISCONNECT\"\r\n\t,\"DISTINCT\"\r\n\t,\"DO\"\r\n\t,\"DOMAIN\"\r\n\t,\"DOUBLEATTRIBUTE\"\r\n\t,\"DROP\"\r\n\t,\"EACH\"\r\n\t,\"EXCEPT\"\r\n\t,\"EXCEPTION\"\r\n\t,\"EXEC\"\r\n\t,\"EXECUTE\"\r\n\t,\"EXTERNAL\"\r\n\t,\"FETCH\"\r\n\t,\"FLOAT\"\r\n\t,\"FOREIGN\"\r\n\t,\"FOUND\"\r\n\t,\"FULL\"\r\n\t,\"FUNCTION\"\r\n\t,\"GET\"\r\n\t,\"GLOBAL\"\r\n\t,\"GO\"\r\n\t,\"GOTO\"\r\n\t,\"GRANT\"\r\n\t,\"GROUP\"\r\n\t,\"HANDLER\"\r\n\t,\"HAVING\"\r\n\t,\"IDENTITY\"\r\n\t,\"IMMEDIATE\"\r\n\t,\"INDEX\"\r\n\t,\"INDEXED\"\r\n\t,\"INDICATOR\"\r\n\t,\"INITIALLY\"\r\n\t,\"INNER\"\r\n\t,\"INOUT\"\r\n\t,\"INPUT\"\r\n\t,\"INSENSITIVE\"\r\n\t,\"INSERT\"\r\n\t,\"INTERSECT\"\r\n\t,\"INTO\"\r\n\t,\"ISOLATION\"\r\n\t,\"JOIN\"\r\n\t,\"KEY\"\r\n\t,\"LANGUAGE\"\r\n\t,\"LAST\"\r\n\t,\"LEAVE\"\r\n\t,\"LEVEL\"\r\n\t,\"LOCAL\"\r\n\t,\"LONGATTRIBUTE\"\r\n\t,\"LOOP\"\r\n\t,\"MODIFIES\"\r\n\t,\"MODULE\"\r\n\t,\"NAMES\"\r\n\t,\"NATIONAL\"\r\n\t,\"NATURAL\"\r\n\t,\"NEXT\"\r\n\t,\"NULLIF\"\r\n\t,\"ON\"\r\n\t,\"ONLY\"\r\n\t,\"OPEN\"\r\n\t,\"OPTION\"\r\n\t,\"ORDER\"\r\n\t,\"OUT\"\r\n\t,\"OUTER\"\r\n\t,\"OUTPUT\"\r\n\t,\"OVERLAPS\"\r\n\t,\"OWNER\"\r\n\t,\"PARTIAL\"\r\n\t,\"PATH\"\r\n\t,\"PRECISION\"\r\n\t,\"PREPARE\"\r\n\t,\"PRESERVE\"\r\n\t,\"PRIMARY\"\r\n\t,\"PRIOR\"\r\n\t,\"PRIVILEGES\"\r\n\t,\"PROCEDURE\"\r\n\t,\"PUBLIC\"\r\n\t,\"READ\"\r\n\t,\"READS\"\r\n\t,\"REFERENCES\"\r\n\t,\"RELATIVE\"\r\n\t,\"REPEAT\"\r\n\t,\"RESIGNAL\"\r\n\t,\"RESTRICT\"\r\n\t,\"RETURN\"\r\n\t,\"RETURNS\"\r\n\t,\"REVOKE\"\r\n\t,\"ROLLBACK\"\r\n\t,\"ROUTINE\"\r\n\t,\"ROW\"\r\n\t,\"ROWS\"\r\n\t,\"SCHEMA\"\r\n\t,\"SCROLL\"\r\n\t,\"SECTION\"\r\n\t,\"SELECT\"\r\n\t,\"SEQ\"\r\n\t,\"SEQUENCE\"\r\n\t,\"SESSION\"\r\n\t,\"SESSION_USER\"\r\n\t,\"SESSION_USERID\"\r\n\t,\"SET\"\r\n\t,\"SIGNAL\"\r\n\t,\"SOME\"\r\n\t,\"SPACE\"\r\n\t,\"SPECIFIC\"\r\n\t,\"SQL\"\r\n\t,\"SQLCODE\"\r\n\t,\"SQLERROR\"\r\n\t,\"SQLEXCEPTION\"\r\n\t,\"SQLSTATE\"\r\n\t,\"SQLWARNING\"\r\n\t,\"STATEMENT\"\r\n\t,\"STRINGATTRIBUTE\"\r\n\t,\"SUM\"\r\n\t,\"SYSACC\"\r\n\t,\"SYSHGH\"\r\n\t,\"SYSLNK\"\r\n\t,\"SYSNIX\"\r\n\t,\"SYSTBLDEF\"\r\n\t,\"SYSTBLDSC\"\r\n\t,\"SYSTBT\"\r\n\t,\"SYSTBTATT\"\r\n\t,\"SYSTBTDEF\"\r\n\t,\"SYSUSR\"\r\n\t,\"SYSTEM_USER\"\r\n\t,\"SYSVIW\"\r\n\t,\"SYSVIWCOL\"\r\n\t,\"TABLE\"\r\n\t,\"TABLETYPE\"\r\n\t,\"TEMPORARY\"\r\n\t,\"TRANSACTION\"\r\n\t,\"TRANSLATE\"\r\n\t,\"TRANSLATION\"\r\n\t,\"TRIGGER\"\r\n\t,\"UNDO\"\r\n\t,\"UNION\"\r\n\t,\"UNIQUE\"\r\n\t,\"UNTIL\"\r\n\t,\"UPDATE\"\r\n\t,\"USAGE\"\r\n\t,\"USER\"\r\n\t,\"USING\"\r\n\t,\"VALUE\"\r\n\t,\"VALUES\"\r\n\t,\"VIEW\"\r\n\t,\"WHERE\"\r\n\t,\"WHILE\"\r\n\t,\"WITH\"\r\n\t,\"WORK\"\r\n\t,\"WRITE\"\r\n\t,\"ALLSCHEMAS\"\r\n\t,\"ALLTABLES\"\r\n\t,\"ALLVIEWS\"\r\n\t,\"ALLVIEWTEXTS\"\r\n\t,\"ALLCOLUMNS\"\r\n\t,\"ALLINDEXES\"\r\n\t,\"ALLINDEXCOLS\"\r\n\t,\"ALLUSERS\"\r\n\t,\"ALLTBTS\"\r\n\t,\"TABLEPRIVILEGES\"\r\n\t,\"TBTPRIVILEGES\"\r\n\t,\"MYSCHEMAS\"\r\n\t,\"MYTABLES\"\r\n\t,\"MYTBTS\"\r\n\t,\"MYVIEWS\"\r\n\t,\"SCHEMAVIEWS\"\r\n\t,\"DUAL\"\r\n\t,\"SCHEMAPRIVILEGES\"\r\n\t,\"SCHEMATABLES\"\r\n\t,\"STATISTICS\"\r\n\t,\"USRTBL\"\r\n\t,\"STRINGTABLE\"\r\n\t,\"LONGTABLE\"\r\n\t,\"DOUBLETABLE\"\r\n\t,\"SELECT * FROM\"\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7140/api/Sensitivewords/AddSensitiveWordFromStringList",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7140",
+					"path": [
+						"api",
+						"Sensitivewords",
+						"AddSensitiveWordFromStringList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Message",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Password",
+						"value": "YourSecretPassword123",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"This is an Action\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7140/api/Filter/message",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7140",
+					"path": [
+						"api",
+						"Filter",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Sensitive Words",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7140/api/Sensitivewords/getsensitivewords",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7140",
+					"path": [
+						"api",
+						"Sensitivewords",
+						"getsensitivewords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Sensitive word",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"010ee889-54fa-4b4d-95ca-89fab4db459b\",\r\n    \"word\": \"EXCEPTION\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7140/api/Sensitivewords/UpdateSensitiveword",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7140",
+					"path": [
+						"api",
+						"Sensitivewords",
+						"UpdateSensitiveword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Sensitive Word",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7140/api/Sensitivewords/010ee889-54fa-4b4d-95ca-89fab4db459b",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7140",
+					"path": [
+						"api",
+						"Sensitivewords",
+						"010ee889-54fa-4b4d-95ca-89fab4db459b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
