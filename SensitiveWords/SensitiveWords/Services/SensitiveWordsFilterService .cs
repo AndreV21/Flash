@@ -15,17 +15,24 @@ namespace SensitiveWords.Services
 
         public string FilterSensitiveWords(string message)
         {
-
-            var sensitiveWords = _sensitiveWordsService.GetSensitiveWords();
-            foreach (string sensitiveWord in sensitiveWords)
+            try
             {
-                // Construct a regular expression pattern to match whole words only
-                string pattern = $@"\b{Regex.Escape(sensitiveWord)}\b";
+                var sensitiveWords = _sensitiveWordsService.GetSensitiveWords();
+                foreach (string sensitiveWord in sensitiveWords)
+                {
+                    // Construct a regular expression pattern to match whole words only
+                    string pattern = $@"\b{Regex.Escape(sensitiveWord)}\b";
 
-                // Replace occurrences of the sensitive word with asterisks
-                message = Regex.Replace(message, pattern, new string('*', sensitiveWord.Length), RegexOptions.IgnoreCase);
+                    // Replace occurrences of the sensitive word with asterisks
+                    message = Regex.Replace(message, pattern, new string('*', sensitiveWord.Length), RegexOptions.IgnoreCase);
+                }
+                return message;
             }
-            return message;
+            catch (Exception ex)
+            {
+                throw;
+            }
+
         }
     }
 }

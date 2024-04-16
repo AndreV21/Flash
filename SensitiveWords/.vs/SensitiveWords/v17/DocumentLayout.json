@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Flash\\SensitiveWords\\",
+  "WorkspaceRootPath": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|d:\\projects\\flash\\sensitivewords\\unittests\\filtercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\filtercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\services\\sensitivewordsfilterservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\services\\sensitivewordsfilterservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\services\\sensitivewordsfilterservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\models\\sensitiveword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\models\\sensitiveword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\services\\sensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\services\\sensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|d:\\projects\\flash\\sensitivewords\\unittests\\sensitivewordscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\sensitivewordscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\models\\sensitivewordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\models\\sensitivewordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\controllers\\sensitivewordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\controllers\\sensitivewordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\controllers\\sensitivewordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|d:\\projects\\flash\\sensitivewords\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\unittests\\filtercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\filtercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\interface\\isensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\services\\sensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\services\\sensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\interface\\isensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\interface\\isensitivewordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|d:\\projects\\flash\\sensitivewords\\sensitivewords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\unittests\\sensitivewordscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\sensitivewordscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\models\\sensitiveword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\models\\sensitiveword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\models\\sensitivewordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\models\\sensitivewordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA69E38B-DD6E-4043-A60A-D2640A3EDAB2}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|c:\\users\\andri\\onedrive\\documents\\github\\flash\\sensitivewords\\sensitivewords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9AF3868-35EA-402F-9A1E-9A82CBDF1A8E}|SensitiveWords\\SensitiveWords.csproj|solutionrelative:sensitivewords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,28 +58,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FilterControllerTests.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\FilterControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\FilterControllerTests.cs",
               "RelativeDocumentMoniker": "UnitTests\\FilterControllerTests.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\FilterControllerTests.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\FilterControllerTests.cs",
               "RelativeToolTip": "UnitTests\\FilterControllerTests.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwCQAAABTAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T06:45:40.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UnitTests.csproj",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
               "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\UnitTests.csproj",
               "RelativeToolTip": "UnitTests\\UnitTests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -89,75 +89,73 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SensitiveWordsControllerTests.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\SensitiveWordsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\SensitiveWordsControllerTests.cs",
               "RelativeDocumentMoniker": "UnitTests\\SensitiveWordsControllerTests.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\UnitTests\\SensitiveWordsControllerTests.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\UnitTests\\SensitiveWordsControllerTests.cs",
               "RelativeToolTip": "UnitTests\\SensitiveWordsControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T06:18:06.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SensitiveWord.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWord.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWord.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Models\\SensitiveWord.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWord.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWord.cs",
               "RelativeToolTip": "SensitiveWords\\Models\\SensitiveWord.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:07:17.338Z",
+              "WhenOpened": "2024-04-14T22:07:17.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISensitiveWordsService.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Interface\\ISensitiveWordsService.cs",
+              "RelativeDocumentMoniker": "SensitiveWords\\Interface\\ISensitiveWordsService.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Interface\\ISensitiveWordsService.cs",
+              "RelativeToolTip": "SensitiveWords\\Interface\\ISensitiveWordsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T22:03:30.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ISensitiveWordsService.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Interface\\ISensitiveWordsService.cs",
-              "RelativeDocumentMoniker": "SensitiveWords\\Interface\\ISensitiveWordsService.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Interface\\ISensitiveWordsService.cs",
-              "RelativeToolTip": "SensitiveWords\\Interface\\ISensitiveWordsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:03:30.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SensitiveWordContext.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWordContext.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWordContext.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Models\\SensitiveWordContext.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWordContext.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Models\\SensitiveWordContext.cs",
               "RelativeToolTip": "SensitiveWords\\Models\\SensitiveWordContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:00:45.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\appsettings.json",
-              "RelativeDocumentMoniker": "SensitiveWords\\appsettings.json",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\appsettings.json",
-              "RelativeToolTip": "SensitiveWords\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-14T21:57:23.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T22:00:45.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\appsettings.json",
+              "RelativeDocumentMoniker": "SensitiveWords\\appsettings.json",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\appsettings.json",
+              "RelativeToolTip": "SensitiveWords\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T21:57:23.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SensitiveWordsController.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\SensitiveWordsController.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\SensitiveWordsController.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Controllers\\SensitiveWordsController.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\SensitiveWordsController.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\SensitiveWordsController.cs",
               "RelativeToolTip": "SensitiveWords\\Controllers\\SensitiveWordsController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwFwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T21:52:01.042Z",
               "EditorCaption": ""
@@ -166,37 +164,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FilterController.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\FilterController.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Controllers\\FilterController.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Controllers\\FilterController.cs",
               "RelativeToolTip": "SensitiveWords\\Controllers\\FilterController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T21:45:02.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SensitiveWordsFilterService .cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
               "RelativeToolTip": "SensitiveWords\\Services\\SensitiveWordsFilterService .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T21:40:43.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SensitiveWordsService.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsService.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsService.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Services\\SensitiveWordsService.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsService.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Services\\SensitiveWordsService.cs",
               "RelativeToolTip": "SensitiveWords\\Services\\SensitiveWordsService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T21:44:23.716Z",
               "EditorCaption": ""
@@ -205,9 +203,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Program.cs",
               "RelativeDocumentMoniker": "SensitiveWords\\Program.cs",
-              "ToolTip": "D:\\Projects\\Flash\\SensitiveWords\\SensitiveWords\\Program.cs",
+              "ToolTip": "C:\\Users\\andri\\OneDrive\\Documents\\GitHub\\Flash\\SensitiveWords\\SensitiveWords\\Program.cs",
               "RelativeToolTip": "SensitiveWords\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -20,23 +20,31 @@ namespace SensitiveWords.Controllers
         [HttpPost("message")]
         public ActionResult<string> FilterMessage([FromBody] FilterMessageRequest request)
         {
-            // Get the expected password from appsettings.json
-            var expectedPassword = _configuration["Security:Password"];
-
-            // Check if the password is provided in the headers
-            if (!Request.Headers.TryGetValue("Password", out var actualPassword))
+            try
             {
-                return Unauthorized("Password not provided in the headers.");
-            }
+                // Get the expected password from appsettings.json
+                var expectedPassword = _configuration["Security:Password"];
 
-            // Compare the provided password with the expected password
-            if (actualPassword != expectedPassword)
+                // Check if the password is provided in the headers
+                if (!Request.Headers.TryGetValue("Password", out var actualPassword))
+                {
+                    return Unauthorized("Password not provided in the headers.");
+                }
+
+                // Compare the provided password with the expected password
+                if (actualPassword != expectedPassword)
+                {
+                    return Unauthorized("Invalid password.");
+                }
+
+                string amendedMessage = _sensitiveWordsFilterService.FilterSensitiveWords(request.Message);
+                return Ok(new FilterMessageResponse { AmendedMessage = amendedMessage });
+            }
+            catch (Exception ex)
             {
-                return Unauthorized("Invalid password.");
+                return BadRequest(ex.Message);
             }
-
-            string amendedMessage = _sensitiveWordsFilterService.FilterSensitiveWords(request.Message);
-            return Ok(new FilterMessageResponse { AmendedMessage = amendedMessage });
+ 
         }
     }
 

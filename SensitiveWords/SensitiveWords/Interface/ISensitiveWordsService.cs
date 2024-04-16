@@ -8,6 +8,6 @@ namespace SensitiveWords.Interface
         void AddSensitiveWord(List<SensitiveWord> word);
         void AddSensitiveWordFromStringList(List<string> word);
         void UpdateSensitiveWord(SensitiveWord word);
-        void DeleteSensitiveWord(int id);
+        void DeleteSensitiveWord(string id);
     }
 }

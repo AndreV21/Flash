@@ -19,44 +19,86 @@ namespace SensitiveWords.Controllers
         [HttpGet("GetSensitiveWords")]
         public ActionResult<IEnumerable<string>> GetSensitiveWords()
         {
-            var sensitiveWords = _sensitiveWordsService.GetSensitiveWords();
-            return Ok(sensitiveWords);
+            try
+            {
+                var sensitiveWords = _sensitiveWordsService.GetSensitiveWords();
+                return Ok(sensitiveWords);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error Occured while retrieving words: " + ex.Message);
+            }
+
         }
 
         [HttpPost("AddSensitiveWord")]
         public ActionResult AddSensitiveWord([FromBody] List<SensitiveWord> sensitiveWords)
         {
-            if (sensitiveWords == null || sensitiveWords.Count == 0)
+            try
             {
-                return BadRequest("No sensitive words provided.");
+                if (sensitiveWords == null || sensitiveWords.Count == 0)
+                {
+                    return BadRequest("No sensitive words provided.");
+                }
+                _sensitiveWordsService.AddSensitiveWord(sensitiveWords);
+                return Ok("Sensitive words added successfully.");
             }
-            _sensitiveWordsService.AddSensitiveWord(sensitiveWords);
-            return Ok("Sensitive words added successfully.");
+            catch (Exception ex)
+            {
+
+                return BadRequest("Error Occured while adding word: " + ex.Message);
+            }
+
         }
 
         [HttpPost("AddSensitiveWordFromStringList")]
         public ActionResult AddSensitiveWordFromStringList([FromBody] List<string> sensitiveWords)
         {
-            if (sensitiveWords == null || sensitiveWords.Count == 0)
+            try
             {
-                return BadRequest("No sensitive words provided.");
+                if (sensitiveWords == null || sensitiveWords.Count == 0)
+                {
+                    return BadRequest("No sensitive words provided.");
+                }
+                _sensitiveWordsService.AddSensitiveWordFromStringList(sensitiveWords);
+                return Ok("Sensitive words added successfully.");
             }
-            _sensitiveWordsService.AddSensitiveWordFromStringList(sensitiveWords);
-            return Ok("Sensitive words added successfully.");
+            catch (Exception ex)
+            {
+
+                return BadRequest("Error Occured while adding words from string list: " + ex.Message);
+            }
+
         }
 
-        [HttpPut("{id}")]
-        public ActionResult UpdateSensitiveWord(SensitiveWord word)
+        [HttpPut("UpdateSensitiveWord")]
+        public ActionResult UpdateSensitiveWord([FromBody] SensitiveWord word)
         {
-            _sensitiveWordsService.UpdateSensitiveWord(word);
-            return Ok();
+            try
+            {
+                _sensitiveWordsService.UpdateSensitiveWord(word);
+                return Ok("Sensitive Word has been updated");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error Occured while updating word: " + ex.Message);
+            }
+
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteSensitiveWord(int id)
+        public ActionResult DeleteSensitiveWord(string id)
         {
-            _sensitiveWordsService.DeleteSensitiveWord(id);
-            return Ok();
+            try
+            {
+                _sensitiveWordsService.DeleteSensitiveWord(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error Occured while deleting word: " + ex.Message);
+            }
+
         }
     }
 

@@ -33,7 +33,7 @@ namespace SensitiveWords.Services
             _context.SaveChanges();
         }
 
-        public void DeleteSensitiveWord(int id)
+        public void DeleteSensitiveWord(string id)
         {
             var word = _context.SensitiveWord.Find(id);
             if (word != null)
